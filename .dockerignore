@@ -1,0 +1,5 @@
+**/__pycache__
+**/.git
+logs
+
+pgvector_data

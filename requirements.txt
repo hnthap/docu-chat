@@ -1,0 +1,29 @@
+# Python 3.12
+
+# --- IMPORTANT! ---
+# Remember to install PyTorch 2.7.1 before installing these packages.
+# Visit https://pytorch.org/get-started/previous-versions/ to know the exact
+# command for your CUDA version.
+
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+python-dotenv>=1.1,<2
+langchain[google-genai]>=0.3.27,<0.4
+transformers>=4.41.0
+sentence-transformers>=5.1.0,<5.2
+
+beautifulsoup4
+gradio
+huggingface_hub[hf_xet]
+langchain-cohere
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-huggingface
+langchain-postgres
+langchain-text-splitters
+langgraph
+pymupdf
+sqlalchemy
+tqdm
