@@ -97,7 +97,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 
-You can also use `conda`. Using a virtual environment would help to preserve producibility and prevent confliction with existing packages.
+You can also use `conda`. Using a virtual environment would help to preserve reproducibility and prevent confliction with existing packages.
 
 **⚠️⚠️⚠️ Important**: Install PyTorch v2.7.1 first, following the official instructions for your system (CPU or CUDA). See [PyTorch Previous Versions](https://pytorch.org/get-started/previous-versions/). **Always make sure that PyTorch is installed before anything else!**
 
@@ -191,8 +191,6 @@ A brief overview of the key files in this project:
 ```
 
 ## Roadmap & Future Improvements
-
-This project is a strong foundation, and here are some potential next steps:
 
 - **Testing**: Implement a full test suite with `pytest` (unit and integration tests) to ensure reliability.
 - **Observability**: Integrate structured logging (e.g., JSON logs) and add observability hooks for monitoring in production.
